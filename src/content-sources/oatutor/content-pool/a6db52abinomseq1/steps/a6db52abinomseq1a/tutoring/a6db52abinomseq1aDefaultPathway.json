@@ -16,7 +16,7 @@
             "a6db52abinomseq1a-h1"
         ],
         "title": "Identify Term Formula",
-        "text": "The formula for a specific term in a binomial expansion is given by $$\\binom{n}{k}a**{n-k}b**k$$, $$where$$ $$n$$ $$is$$ $$the$$ $$power$$, $$k$$ $$is$$ $$the$$ $$term$$ $$number$$ $$minus$$ $$1$$, $$and$$ $$a$$, $$b$$ $$are$$ $$the$$ $$terms$$ $$in$$ $$the$$ $$binomial$$.",
+        "text": "The formula for a specific term in a binomial expansion is given by $$\\binom{n}{k}a**{n-k}b**k$$, where n is the power, k is the term number minus 1, and a, b are the terms in the binomial.",
         "variabilization": {},
         "oer": "openai",
         "license": ""

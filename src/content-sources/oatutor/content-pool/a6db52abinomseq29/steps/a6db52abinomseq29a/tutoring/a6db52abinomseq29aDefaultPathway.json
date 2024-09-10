@@ -33,7 +33,7 @@
             "a6db52abinomseq29a-h2"
         ],
         "title": "Calculate Coefficient using Binomial Theorem",
-        "text": "Use the binomial coefficient formula \\(C(n,k)=(n!)/(k!(n-k)!)\\) to find the coefficient for each term. What is the coefficient for the term associated with $$x^4 y$$?",
+        "text": "Use the binomial coefficient formula $$C(n,k)=\\frac{n!}{k!(n-k)!}$$ to find the coefficient for each term. What is the coefficient for the term associated with $$x^4 y$$?",
         "variabilization": {},
         "oer": "openai",
         "license": ""
@@ -50,7 +50,7 @@
             "a6db52abinomseq29a-h3"
         ],
         "title": "Determine the Powers of $$x$$ and $$y$$",
-        "text": "For each term, determine the power of $$x$$ and $$y$$ by \\(x**{(5-k)}y**k\\) where k is the term index. What is the power of $$x$$ for the term with $$x^4 y$$?",
+        "text": "For each term, determine the power of $$x$$ and $$y$$ by $$x^{(5-k)} y^k$$ where k is the term index. What is the power of $$x$$ for the term with $$x^4 y$$?",
         "variabilization": {},
         "oer": "openai",
         "license": ""

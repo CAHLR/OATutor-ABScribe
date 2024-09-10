@@ -28,7 +28,7 @@
             "a307d54quadratic17a-h2"
         ],
         "title": "Finding k",
-        "text": "We can substitue $$x=h$$ into the general form of the quadratic to find k. 2(-2)**2+8(-2)-10=k=-18",
+        "text": "We can substitue $$x=h$$ into the general form of the quadratic to find k. $$2(-2)^2 + 8(-2) - 10 = k = -18$$",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
         "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"

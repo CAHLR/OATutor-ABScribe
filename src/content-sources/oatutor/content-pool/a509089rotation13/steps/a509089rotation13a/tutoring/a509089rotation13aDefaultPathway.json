@@ -53,8 +53,8 @@
     {
         "id": "a509089rotation13a-h5",
         "type": "scaffold",
-        "problemType": "TextBox",
-        "answerType": "arithmetic",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
         "hintAnswer": [
             "$$7{x'}^2+9{y'}^2-4=0$$"
         ],
@@ -65,6 +65,12 @@
         "text": "Using FOIL method, combining like terms, and other simplifications, determine the new representation of the equation. Write the answer so that there are no fractions.",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
-        "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
+        "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "choices": [
+            "$$7{x'}^2+9{y'}^2-4=0$$",
+            "$$4{x'}^2+2{y'}^2-1=0$$",
+            "$$8{x'}^2+5{y'}^2-9=0$$",
+            "$$7{x'}^2+5{y'}^2-3=0$$"
+        ]
     }
 ]

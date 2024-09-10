@@ -16,7 +16,7 @@
             "a509089rotation4a-h1"
         ],
         "title": "Equations of Rotation",
-        "text": "If a point (x,y) on the Cartesian plane is represented on a new coordinate plane where the axes of rotation are formed by rotating an angle $$\\theta$$ from the positive x-axis, then the coordinates of the point with respect to the new axes are (x\u2032,y\u2032). We can use the following equations of rotation to define the relationship between (x,y) and (x\u2032,y\u2032):\\nx=x\u2032*cos(\\theta)-y\u2032*sin(\\theta)\\nand\\ny=x\u2032*sin(\\theta)+y\u2032*cos(\\theta)",
+        "text": "If a point (x,y) on the Cartesian plane is represented on a new coordinate plane where the axes of rotation are formed by rotating an angle $$\\theta$$ from the positive x-axis, then the coordinates of the point with respect to the new axes are (x\u2032,y\u2032). We can use the following equations of rotation to define the relationship between (x,y) and (x\u2032,y\u2032):$$x=x' \\cos(\\theta) - y' \\sin(\\theta)$$ and $$y=x' \\sin(\\theta) + y' \\cos(\\theta)$$",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
         "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
@@ -130,7 +130,7 @@
             "a509089rotation4a-h8"
         ],
         "title": "Finding $$\\operatorname{Sin}\\left(\\theta\\right)$$",
-        "text": "Since we have the angle $$2\\theta$$, we will use the trigonometry identity, sin(\\theta)=sqrt((1-cos(2*\\theta)/2). We can calculate $$cos\\left(2\\theta\\right)$$ from the diagram as $$\\frac{adjacent}{hypotenuse}$$ for an angle $$2\\theta$$. What is $$sin\\left(\\theta\\right)$$?",
+        "text": "Since we have the angle $$2\\theta$$, we will use the trigonometry identity, $$\\sin(\\theta) = \\sqrt{\\frac{1 - \\cos(2\\theta)}{2}}$$. We can calculate $$cos\\left(2\\theta\\right)$$ from the diagram as $$\\frac{adjacent}{hypotenuse}$$ for an angle $$2\\theta$$. What is $$sin\\left(\\theta\\right)$$?",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
         "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
@@ -147,7 +147,7 @@
             "a509089rotation4a-h9"
         ],
         "title": "Finding $$\\operatorname{Cos}\\left(\\theta\\right)$$",
-        "text": "Since we have the angle $$2\\theta$$, we will use the trigonometry identity, cos(\\theta)=sqrt((1+cos(2*\\theta)/2). We can calculate $$cos\\left(2\\theta\\right)$$ from the diagram as $$\\frac{adjacent}{hypotenuse}$$ for an angle $$2\\theta$$. What is $$cos\\left(\\theta\\right)$$?",
+        "text": "Since we have the angle $$2\\theta$$, we will use the trigonometry identity, $$\\cos(\\theta) = \\sqrt{\\frac{1 + \\cos(2\\theta)}{2}}$$. We can calculate $$cos\\left(2\\theta\\right)$$ from the diagram as $$\\frac{adjacent}{hypotenuse}$$ for an angle $$2\\theta$$. What is $$cos\\left(\\theta\\right)$$?",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
         "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
@@ -159,7 +159,7 @@
             "a509089rotation4a-h10"
         ],
         "title": "Substitution",
-        "text": "We want to substitute x=x\u2032*cos(\\theta)-y\u2032*sin(\\theta) and y=x\u2032*sin(\\theta)+y\u2032*cos(\\theta) into the equation so that we can manipulate the equation into the new representation.",
+        "text": "We want to substitute x=$$x' \\cos(\\theta) - y' \\sin(\\theta)$$ and y=$$x' \\sin(\\theta) + y' \\cos(\\theta)$$ into the equation so that we can manipulate the equation into the new representation.",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
         "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
@@ -167,8 +167,8 @@
     {
         "id": "a509089rotation4a-h12",
         "type": "scaffold",
-        "problemType": "TextBox",
-        "answerType": "arithmetic",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
         "hintAnswer": [
             "$$\\frac{x'-\\sqrt{3} y'}{2}$$"
         ],
@@ -176,16 +176,22 @@
             "a509089rotation4a-h11"
         ],
         "title": "Substitution",
-        "text": "Simplifying the equation of rotation for the $$x$$ term where x=x\u2032*cos(\\theta)-y\u2032*sin(\\theta), what is $$x$$ equals to after substituting in $$sin\\left(\\theta\\right)$$ and $$cos\\left(\\theta\\right)$$?",
+        "text": "Simplifying the equation of rotation for the $$x$$ term where x=$$x' \\cos(\\theta) - y' \\sin(\\theta)$$, what is $$x$$ equals to after substituting in $$sin\\left(\\theta\\right)$$ and $$cos\\left(\\theta\\right)$$?",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
-        "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
+        "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "choices": [
+            "$$\\frac{x'-\\sqrt{3} y'}{2}$$",
+            "$$\\frac{x'+ \\sqrt{3} y'}{2}$$",
+            "$$\\frac{-x'+ \\sqrt{3} y'}{2}$$",
+            "$$\\frac{-x'-\\sqrt{3} y'}{2}$$"
+        ]
     },
     {
         "id": "a509089rotation4a-h13",
         "type": "scaffold",
-        "problemType": "TextBox",
-        "answerType": "arithmetic",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
         "hintAnswer": [
             "$$\\frac{\\sqrt{3} x'+y'}{2}$$"
         ],
@@ -193,10 +199,16 @@
             "a509089rotation4a-h12"
         ],
         "title": "Substitution",
-        "text": "Simplifying the equation of rotation for the $$y$$ term where y=x\u2032*sin(\\theta)+y\u2032*cos(\\theta), what is $$y$$ equals to after substituting in $$sin\\left(\\theta\\right)$$ and $$cos\\left(\\theta\\right)$$?",
+        "text": "Simplifying the equation of rotation for the $$y$$ term where y=$$x' \\sin(\\theta) + y' \\cos(\\theta)$$, what is $$y$$ equals to after substituting in $$sin\\left(\\theta\\right)$$ and $$cos\\left(\\theta\\right)$$?",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
-        "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
+        "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+        "choices": [
+            "$$\\frac{\\sqrt{3} x'+y'}{2}$$",
+            "$$\\frac{-\\sqrt{3} x'+y'}{2}$$",
+            "$$\\frac{\\sqrt{3} x'-y'}{2}$$",
+            "$$\\frac{-\\sqrt{3} x'-y'}{2}$$"
+        ]
     },
     {
         "id": "a509089rotation4a-h14",

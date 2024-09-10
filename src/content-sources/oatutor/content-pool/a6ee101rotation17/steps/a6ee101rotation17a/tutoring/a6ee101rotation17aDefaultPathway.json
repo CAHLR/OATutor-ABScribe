@@ -33,7 +33,7 @@
             "a6ee101rotation17a-h2"
         ],
         "title": "Calculate Tan(2\u03b8)",
-        "text": "Given the equation $$x**2+3\\sqrt{3}xy+4y**2+y-2=0$$, $$identify$$ $$A$$, $$B$$, $$and$$ $$C$$. $$What$$ $$is$$ $$tan(2\\theta)$$?",
+        "text": "Given the equation $$x**2+3\\sqrt{3}xy+4y**2+y-2=0$$, identify A, B, and C. What is tan(2θ)?",
         "variabilization": {},
         "oer": "openai",
         "license": ""

@@ -33,7 +33,7 @@
             "a6db52abinomseq17a-h2"
         ],
         "title": "Determine the Combination Coefficient",
-        "text": "Use C(n,k) to find the combination number where C(4,3)=4!/(3!(4-3)!). What is $$C(4,3)$$?",
+        "text": "Use C(n,k) to find the combination number where $$C(4,3)=\\frac{4!}{3!(4-3)!}$$. What is $$C(4,3)$$?",
         "variabilization": {},
         "oer": "openai",
         "license": ""
@@ -78,13 +78,13 @@
         "problemType": "TextBox",
         "answerType": "arithmetic",
         "hintAnswer": [
-            "$$-216{xy}^3$$"
+            "$$-216xy^3$$"
         ],
         "dependencies": [
             "a6db52abinomseq17a-s3"
         ],
         "title": "Combine All Parts to Find the Term",
-        "text": "Multiply the combination coefficient, the first term's contribution, and the second term's contribution: $$4$$ * (2x) * $$\\left(-27y^3\\right)$$. What does this equal?",
+        "text": "Multiply the combination coefficient, the first term's contribution, and the second term's contribution: $$4 \\cdot (2x) \\cdot \\left(-27y^3\\right)$$. What does this equal?",
         "variabilization": {},
         "oer": "openai",
         "license": ""

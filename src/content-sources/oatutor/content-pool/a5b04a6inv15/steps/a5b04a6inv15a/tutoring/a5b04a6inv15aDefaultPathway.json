@@ -16,7 +16,7 @@
             "a5b04a6inv15a-h1"
         ],
         "title": "Multiplying the Determinant with the Changed Matrix",
-        "text": "We must modify the matrix into the form $$\\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$$. We now have $$/mat{(2,-7),(-9,-3)$$. Dividing this matrix by the determinant, we have $$/mat{(2,-7),(-9,-3)/(-69)$$.",
+        "text": "We must modify the matrix into the form $$\\begin{bmatrix} d & -b \\\\ -c & a \\end{bmatrix}$$. We now have $$\\begin{bmatrix} 2 & -7 \\\\ -9 & -3 \\end{bmatrix}$$. Dividing this matrix by the determinant, we have $$\\frac{-1}{69} \\begin{bmatrix} 2 & -7 \\\\ -9 & -3 \\end{bmatrix}$$.",
         "variabilization": {},
         "oer": "https://OATutor.io <OATutor>",
         "license": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>"
