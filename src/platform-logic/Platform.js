@@ -506,7 +506,7 @@ class Platform extends React.Component {
                     <center>
                         <h2>
                         Thank you for completing this phase of the study! 
-                        Please click the blue right arrow in the corner of the survey window below.
+                        Please go back to the study and click the blue right arrow in the corner of the survey window to proceed.
                         </h2>
                     </center>
                 ) : (
